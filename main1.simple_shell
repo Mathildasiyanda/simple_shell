@@ -1,4 +1,4 @@
-.TH hsh 1 "NOVEMBER 09, 2022" "1.0" "hsh (basic_shell) User Guide"
+ (basic_shell) User Guide"
 
 .SH NAME
 
@@ -121,7 +121,3 @@ No known bugs have been identified or reported as of (November 09, 2022).
 Please notify the contributors listed in the AUTHORs section of any issues or bugs encountered
 RACHEL murithi
 Mathilda Mogane
-
-
-.SH SEE ALSO
-sh
