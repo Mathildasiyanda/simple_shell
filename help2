@@ -9,13 +9,12 @@
 *Return: The new String;
 */
 
-char *buider(char *strn, unsigned int sta. unsigned
-int end)
+char *buider(char *strn, unsigned int sta, unsigned int end)
 {
 char *n_strn;
 int i = 0,j;
 
-j = (end_ -sta) = + 2;
+j = (end_ -sta) + 2;
 
 n_strn = malloc(sizeof(char_ *j);
 
@@ -50,4 +49,3 @@ free(ar[i]);
 
 free(ar);
 }
-

@@ -9,6 +9,6 @@
 void exiting_fu(char _attribute_((unused)) **env_i)
 {
 
- exit(0)
+ exit(0);
 
 }
