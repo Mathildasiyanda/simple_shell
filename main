@@ -1,0 +1,45 @@
+#include "shell.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * main - Entry point
+ * @argc: Argument count
+ * @argv: Arguments from the terminal
+ * @env: Environment list
+ * Return: Always 0
+ */
+int main(int argc, char **argv, char **env)
+{
+	int val;
+
+	if (argc != 1)
+	{
+		line_put("Usage: ");
+		line_put(argv[0]);
+		_putchar('\n');
+		return (1);
+	}
+
+	while (1) // Use a proper condition to exit the loop.
+	{
+		val = starting(argv, env);
+		if (val == 10)
+			return (0);
+		if (val)
+			return (val);
+	}
+	return (0);
+}
+
+/**
+ * starting - Launches the shell prompt
+ * @argv: Arguments from the main function
+ * @env: Environment list
+ * Return: Integers as success or error codes
+ */
+int starting(char **argv, char **env)
+{
+	/* Your implementation for the starting function */
+	/* (Assuming the implementation is correct) */
+}
